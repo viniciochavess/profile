@@ -1,0 +1,31 @@
+.moon {
+    top: -80px;
+    right: -40px;
+    position: absolute;
+    z-index: 0;
+    animation: moon-animate 5s infinite;
+    
+   
+  }
+
+
+  @keyframes moon-animate{
+
+    0%{
+        filter:brightness(50%)
+    }
+
+    50%{filter:brightness(100%)}
+
+    100%{filter:brightness(50%)}
+  }
+
+@media (max-width: 850px){
+    .moon > svg{
+        width: 800px;
+
+    }
+    .moon{
+        top:-240px;
+    }
+}

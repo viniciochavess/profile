@@ -1,0 +1,17 @@
+.text{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+    background-color: rgba(22, 74, 119, 0.075);
+    flex-wrap: wrap;
+    
+}

@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    color: white;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.socialmedia{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    right: 40px;
+}
+
+
+.name{
+    text-align: center;
+}

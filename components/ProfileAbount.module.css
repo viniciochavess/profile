@@ -1,0 +1,72 @@
+.aboutContainer {
+  margin-top: 60px;
+  display: flex;
+}
+
+.imgProfile {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgProfile {
+  width: 250px;
+
+  background-size: cover;
+  filter: blur(2px);
+  filter: drop-shadow(0.9em 0.4em 8px rgba(255, 255, 255, 0.2));
+}
+
+.imgProfile > img {
+  clip-path: polygon(
+    93.82% 74.09%,
+    51.05% 99.99%,
+    7.23% 75.9%,
+    6.18% 25.91%,
+    48.95% 0.01%,
+    92.77% 24.1%
+  );
+  width: 250px;
+}
+
+.boxblur { 
+    
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(22, 74, 119, 0.075);
+    z-index:10;
+    filter:blur(2px);
+    border-radius:16px;
+    filter: drop-shadow(0.25em .5em 0px rgba(255, 255, 255,0.2));
+
+    
+}
+
+.boxblurnot{
+    position:absolute;
+    z-index:11;
+    color:white;
+    padding:20px;
+    text-align:justify;
+
+
+}
+
+.containerTextProfile{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+
+}

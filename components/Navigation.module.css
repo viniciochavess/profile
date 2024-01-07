@@ -1,0 +1,29 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+
+}
+
+.navigation ul{
+    display: flex;
+
+}
+.navigation ul li {
+    list-style: none;
+    padding: 24px;
+   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-left: 20px;
+}
