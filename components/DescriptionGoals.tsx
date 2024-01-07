@@ -73,7 +73,7 @@ export function DescriptionGoals() {
         </g>
         <g filter="url(#filter7_d_44_17)">
           <path
-            d="M682.5 63.5L409.051 195.35C401.127 199.171 401.642 210.625 409.878 213.719L933.26 410.333C941.475 413.419 942.015 424.834 934.128 428.682L308.462 733.908C302.631 736.753 301.011 744.313 305.165 749.298L637 1147.5"
+            d="M682.5 63.5L397.75 197.282C389.701 201.063 390.222 212.683 398.578 215.728L932.88 410.439C941.17 413.46 941.771 424.954 933.841 428.822L308.462 733.908C302.631 736.753 301.011 744.313 305.165 749.298L637 1147.5"
             stroke="white"
             stroke-width="8"
             stroke-linecap="round"
@@ -328,8 +328,8 @@ export function DescriptionGoals() {
           <filter
             id="filter7_d_44_17"
             x="268.844"
-            y="33.4991"
-            width="704.901"
+            y="33.499"
+            width="704.613"
             height="1152"
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
