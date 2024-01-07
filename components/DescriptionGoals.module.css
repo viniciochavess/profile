@@ -46,3 +46,14 @@
         margin-top: 230px;
     }
 }
+
+
+@media (max-width:499px) {
+    .svg{
+        width: 220px;
+    }
+
+    .text{
+        margin-top: 330px;
+    }
+}

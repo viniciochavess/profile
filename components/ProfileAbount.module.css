@@ -93,3 +93,9 @@
     margin-top: 200px ;
   }
 }
+
+@media (max-width:499px) {
+  .textAbount{
+      margin-top: 300px;
+  }
+}
