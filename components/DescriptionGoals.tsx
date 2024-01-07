@@ -1,12 +1,13 @@
-import classes from './DescriptionGoals.module.css'
+import classes from "./DescriptionGoals.module.css";
 export function DescriptionGoals() {
   return (
     <>
-    <h1 className={classes.text}>Metas e Objetivos</h1>
-      <svg className={classes.svg}
-        width="1080"
+      <h1 className={classes.text}>Metas e Objetivos</h1>
+      <svg
+        className={classes.svg}
+        width="1156"
         height="1304"
-        viewBox="0 0 1318 1304"
+        viewBox="0 0 1156 1304"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -72,7 +73,7 @@ export function DescriptionGoals() {
         </g>
         <g filter="url(#filter7_d_44_17)">
           <path
-            d="M671 59L385.275 197.449C377.251 201.337 377.943 212.989 386.371 215.9L946.702 409.452C955.189 412.384 955.811 424.149 947.68 427.959L296.893 732.927C290.911 735.73 289.243 743.461 293.536 748.481L636.5 1149.5M1818 584.5L1792.75 574.972C1791.92 574.659 1791.05 574.457 1790.17 574.373L1634.5 559.5"
+            d="M682.5 63.5L409.051 195.35C401.127 199.171 401.642 210.625 409.878 213.719L933.26 410.333C941.475 413.419 942.015 424.834 934.128 428.682L308.462 733.908C302.631 736.753 301.011 744.313 305.165 749.298L637 1147.5"
             stroke="white"
             stroke-width="8"
             stroke-linecap="round"
@@ -326,10 +327,10 @@ export function DescriptionGoals() {
           </filter>
           <filter
             id="filter7_d_44_17"
-            x="257.133"
-            y="28.9991"
-            width="1594.87"
-            height="1158.5"
+            x="268.844"
+            y="33.4991"
+            width="704.901"
+            height="1152"
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >

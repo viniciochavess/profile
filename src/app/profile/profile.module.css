@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     justify-content: center;
@@ -18,18 +19,18 @@
 
 @media (max-width:899px) {
     .main{
-        width: 600px;
+        width: 90%;
     }
 }
 
 @media (max-width:699px) {
     .main{
-        width: 500px;
+        width: 90%;
     }
 }
 
 @media (max-width:499px) {
     .main{
-        width: 300px;
+        width: 90%;
     }
 }

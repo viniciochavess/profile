@@ -7,7 +7,7 @@
 
 .svg{
     margin-top: 50px;
-    padding: 40px;
+    width: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
 
 @media (max-width:1080px) {
     .svg{
-        width: 800px;
+        width: 99%;
         height: 600px;
     }
 }
@@ -24,9 +24,12 @@
 
 @media (max-width:899px) {
     .svg{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+       
         
-        width: 450px;
-        height: 450px;
+        
     }
 
     .text{
@@ -36,10 +39,11 @@
 
 @media (max-width:600px){
     .svg{
-        padding: 40px;
+        width: 99%;
+        
+       
         margin-top: 50px;
-        width: 340px;
-        height: 300px;
+      
     }
 
     .text{
@@ -49,8 +53,10 @@
 
 
 @media (max-width:499px) {
+    
     .svg{
-        width: 220px;
+        
+        width: 99%;
     }
 
     .text{
