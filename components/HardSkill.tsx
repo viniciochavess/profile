@@ -19,7 +19,7 @@ export function HardSkill(){
     return(
         <>
             <section>
-                <h1 className={classes.text}>Minhas Habilidades</h1>
+                <h1 className={`${classes.text} skill`}>Minhas Habilidades</h1>
                 <div className={classes.container}>
                     <Image src={html.src} width={50} height={50} alt='logo do html'/>
                     <Image src={css.src} width={50} height={50} alt='logo do css'/>

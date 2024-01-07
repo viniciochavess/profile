@@ -8,3 +8,22 @@
     width: 1080px;
     
 }
+
+@media (max-width:1080px) {
+    .main{
+        width: 900px;
+    }
+}
+
+
+@media (max-width:899px) {
+    .main{
+        width: 600px;
+    }
+}
+
+@media (max-width:699px) {
+    .main{
+        width: 500px;
+    }
+}

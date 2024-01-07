@@ -4,3 +4,39 @@
     text-align: center;
 
 }
+
+.svg{
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:1080px) {
+    .svg{
+        width: 800px;
+        height: 600px;
+    }
+}
+
+
+@media (max-width:899px) {
+    .svg{
+        
+        width: 450px;
+        height: 450px;
+    }
+
+    .text{
+        margin-top: 185px;
+    }
+}
+
+@media (max-width:600px){
+    .svg{
+        width: 300px;
+        height: 800px;
+    }
+}

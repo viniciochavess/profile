@@ -18,7 +18,7 @@ export function ProfileAbount(){
             <div className={classes.containerTextProfile}>
               <div className={classes.boxblur}></div>
               <div className={classes.boxblurnot}> 
-              <p>
+              <p className={classes.textAbount}>
               "Olá, meu nome é Vinicio, tenho 25 anos e sou formado no curso de Análise e Desenvolvimento de Sistemas pela Unifasb-Ba. Atualmente, estou cursando Arquitetura de Software na PUC-Minas, com foco na linguagem de programação JavaScript e suas tecnologias. Busco a oportunidade de ingressar em um estágio de desenvolvimento web. Embora não tenha experiência profissional, tenho convicção e muita vontade de aprender. Agradeço pela sua visita desde já."
               </p>
               

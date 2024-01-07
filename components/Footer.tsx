@@ -12,9 +12,9 @@ export function Footer(){
                     <p className={classes.name} >vinicio chaves © {new Date().getFullYear()}</p>
                 </div>
                 <div className={classes.socialmedia}>
-                    <Image src={github.src} width={40} height={40} alt='github'/>
-                    <Image src={instragram.src} width={40} height={40} alt='instagram'/>
-                    <Image src={linkedin.src} width={40} height={40} alt='linkedin'/>
+                    <a href='https://github.com/viniciochavess' target='_blank'><Image src={github.src} width={40} height={40} alt='github'/></a>
+                    <a href='https://www.instagram.com/viniciochavess/' target='_blank'><Image src={instragram.src} width={40} height={40} alt='instagram'/> </a>
+                    <a href='https://github.com/viniciochavess' target='_blank'><Image src={linkedin.src} width={40} height={40} alt='linkedin'/> </a>
 
                 </div>
             </footer>

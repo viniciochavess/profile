@@ -3,7 +3,7 @@ export function DescriptionGoals() {
   return (
     <>
     <h1 className={classes.text}>Metas e Objetivos</h1>
-      <svg
+      <svg className={classes.svg}
         width="1080"
         height="1304"
         viewBox="0 0 1318 1304"
