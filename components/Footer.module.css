@@ -15,7 +15,7 @@
     position: absolute;
    
     background: rgb(63,94,251);
-    background: linear-gradient(0deg, rgba(4, 27, 160, 0.986) 0%, rgb(68, 93, 240) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.986) 0%, rgba(255, 254, 254, 0.897) 100%);
     border-radius: 4px;
     width: 200px;
     right: 40px;
