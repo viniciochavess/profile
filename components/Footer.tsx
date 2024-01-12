@@ -3,6 +3,7 @@ import github from '@/app/assets/github.png'
 import instragram from '@/app/assets/instagram.png'
 import linkedin from '@/app/assets/linke.png'
 
+
 import classes from './Footer.module.css'
 export function Footer(){
     return(

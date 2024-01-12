@@ -15,6 +15,7 @@ import postg from '@/app/assets/icons8-postgresql-48 1.png'
 import figma from '@/app/assets/icons8-figma-48 1.png'
 import docker from '@/app/assets/icons8-docker-48 1.png'
 import bubble from '@/app/assets/image 3.png'
+import python from '@/app/assets/python.png'
 export function HardSkill(){
     return(
         <>
@@ -35,6 +36,7 @@ export function HardSkill(){
                     <Image src={figma.src} width={50} height={50} alt='logo do figma'/>
                     <Image src={docker.src} width={50} height={50} alt='logo do docker'/>
                     <Image src={bubble.src} width={50} height={50} alt='logo do bubble'/>
+                    <Image src={python.src} width={50} height={50} alt='logo do python'/>
 .
                 </div>
             </section>
