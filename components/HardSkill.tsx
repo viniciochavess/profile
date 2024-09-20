@@ -49,7 +49,7 @@ export function HardSkill() {
           <Image src={figma.src} width={50} height={50} alt="logo do figma" />
           <Image src={docker.src} width={50} height={50} alt="logo do docker" />
           <Image src={bubble.src} width={50} height={50} alt="logo do bubble" />
-          .
+          
         </div>
       </section>
     </>
